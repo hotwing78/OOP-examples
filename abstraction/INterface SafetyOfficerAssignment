@@ -1,0 +1,15 @@
+Interface SafetyOfficer
+	-inspect()
+	-dance()
+
+Abstract Pilot
+	-lastname, rank
+	-reciteRulesOfPiloting()
+		-echo "rules"
+Concrete class:
+	-F16Pilot extend Pilot
+	-C17Pilot extend Pilot implements SafetyOfficer
+		-$uniformColor
+		-__construct
+		-flyC17
+			-echo "Flying";
